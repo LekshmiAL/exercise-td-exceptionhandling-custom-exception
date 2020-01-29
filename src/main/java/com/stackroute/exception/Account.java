@@ -1,4 +1,4 @@
-package com.stackroute.exception.commander.test;
+package com.stackroute.exception;
 
 public class Account {
 

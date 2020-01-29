@@ -1,4 +1,4 @@
-package com.stackroute.exception.commander.test;
+package com.stackroute.exception;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
