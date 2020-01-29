@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.satckroute</groupId>
-    <artifactId>exercise-td-exceptionhandling-custom-exception-solution</artifactId>
+    <artifactId>exercise-td-exceptionhandling-custom-exception</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
