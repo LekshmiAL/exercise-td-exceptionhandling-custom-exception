@@ -49,12 +49,12 @@ public class AccountTests {
     }
 
     @Test
-    public void givenNegativeWithdrawAmountThenThrowsNegativeIntegerExcepion() throws InsufficientFundException, NegativeIntegerException {
+    public void givenNegativeWithdrawAmountThenThrowsNegativeIntegerException() throws InsufficientFundException, NegativeIntegerException {
         assertThrows(NegativeIntegerException.class, () -> account.withdraw(-100), MESSAGE_FOUR);
     }
 
     @Test
-    public void givenInvalidWithdrawAmountThenThrowsInsufficientFundExcepion() throws InsufficientFundException, NegativeIntegerException {
+    public void givenInvalidWithdrawAmountThenThrowsInsufficientFundException() throws InsufficientFundException, NegativeIntegerException {
         assertThrows(InsufficientFundException.class, () -> account.withdraw(150000), MESSAGE_FIVE);
     }
 }
