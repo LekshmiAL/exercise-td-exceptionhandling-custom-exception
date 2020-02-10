@@ -7,7 +7,7 @@
 - Functionality of methods should be completed, such that all the test cases pass
 - Some of the requirements/hints are mentioned below
 
-- In this problem, Custom exception are handled using throws and throw clause.
+- In this problem, while withdrawing money from account, custom exceptions should be used for below scenarios
             
             Withdrawing amount from the given bank account less than zero should throw NegativeIntegerException
             Withdrawing amount from the given bank account greater than the balance should throw InsufficientFundException

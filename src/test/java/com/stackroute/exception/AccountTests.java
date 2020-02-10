@@ -54,7 +54,7 @@ public class AccountTests {
     }
 
     @Test
-    public void givenInvalidWithdrawAmountThenThrowsInsufficientFundException() throws InsufficientFundException, NegativeIntegerException {
+    public void givenWithdrawAmountGreaterThanBalanceThenThrowsInsufficientFundException()  throws InsufficientFundException, NegativeIntegerException {
         assertThrows(InsufficientFundException.class, () -> account.withdraw(150000), MESSAGE_FIVE);
     }
 }
