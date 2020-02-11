@@ -1,4 +1,4 @@
-## Problem Statement: Understanding TreeSet and its methods ##
+## Problem Statement: Understanding Custom exception handling ##
 
 **This exercise should be completed using Test Driven Development Technique**
 
