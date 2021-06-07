@@ -1,6 +1,5 @@
 # Eclipse
 .classpath
-*.class
 .project
 .settings/
 # Intellij
@@ -11,7 +10,6 @@
 # Maven
 log/
 target/
-target/*
 # Package Files #
 *.jar
 *.war
